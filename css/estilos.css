@@ -1,0 +1,177 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: "Gupter", serif;
+}
+
+
+
+h3{
+    color: #7f888f;
+    font-size: 16px;
+}
+
+section{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;  
+
+
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+
+nav{
+    background-color: #333;
+    overflow: hidden;   /*para q oculte si se exceden */
+    width: 100%;
+}
+
+nav a{
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+
+
+    /*para q los menus se coloquen al costado */
+    float: left;
+    display: block;  
+
+}
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+  
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+footer{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+
+    /*para la psocion del footer*/
+    position: fixed;
+    left: 0;
+    bottom: 0;      
+}
+
+
+
+iframe{
+    border-radius: 4px;
+
+    margin-top: 30px;       /*espacio arriba del iframe*/
+    margin-bottom: 30px;    /*espacio debajo del iframe*/
+}
+
+
+button{
+    background-color: #4CAF50;
+
+    border-radius: 4px;
+    color: #fff;
+    padding: 14px 28px;
+
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #46a049;
+
+}
+
+
+
+article{
+    text-align: justify;    
+}
+
+article p{
+    margin-bottom: 20px;
+}
+
+
+
+/*Contacto*/
+section form input[type=submit], 
+section form input[type=reset] {
+
+    background-color: #4CAF50;    
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+section form input[type=submit]:hover, 
+section form input[type=reset]:hover {
+
+    background-color: #a7a3a3;
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+section form input[type=text], select, textarea{
+    width: 100%;
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    margin-top: 6px;
+    margin-bottom: 16px;
+    
+    box-sizing: border-box;
+    resize: vertical;
+
+}
+
+
+section form {
+  border-radius: 5px;
+  background-color: #ccc8c8;
+  padding: 20px;
+  width: 100%;
+}
+
+
